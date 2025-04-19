@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    background-color: rgb(233, 233, 113);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: white;
+    height: 550px;
+    width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 60px;
+    display: flex;
+}
+nav{
+    top: 80px;
+    height: 80px; 
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+.left-nav{
+    display: flex;
+    font-size: 22px;
+}
+.travel{
+    color: orangered;
+}
+.mid-nav{
+    display: flex;
+    padding: 130px;
+    font-size: 17px;
+}
+.mid-nav a{
+    padding: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.right-nav{
+    font-size: 17px;
+}
+.signUp{
+    color: black;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.btn1{
+   
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+.text{
+    height: 550px;
+    position: absolute;
+    width:550px;
+    top: 130px;
+}
+.text p{
+    font-size: 45px;
+    line-height: 10px;
+    font-weight: bold;
+}
+.adv{
+    color: orangered;
+}
+.t1{
+    top: 230px;
+    line-height: 30px;
+    position: absolute;
+    font-size: 17.5px;
+}
+.content{
+    display: flex;
+    margin-top: 200px;
+    padding: 10px;
+    line-height: 25px;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 460px;
+}
+.a{
+    margin-right: 80px;
+}
+.content a{
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    text-decoration: none;
+    top: 12px;
+    position: relative;
+}
+.a i{
+    color: orangered;
+}
+.last-txt{
+    margin-top: 80px;
+}
+.last-icon{
+    font-size: 10px;
+}
+.img{
+    height: 450px;
+    width: 300px;
+    top: 180px;
+    right: 430px;
+    position: absolute;
+}
+.tag1, .tag2, .tag3, .tag4{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px 10px;
+    position: absolute;
+    background-color: white;
+}
+.tag1{
+    right: 675px;
+    top: 300px;
+}
+.tag2{
+    right: 665px;
+    bottom: 285px;
+}
+
+.tag3{
+    right: 395px;
+    top: 240px;
+}
+.tag4{
+    right: 335px;
+    bottom: 235px;
+}
+.icon{
+    color: orangered;
+    padding-right: 5px;
+}
+.tags a{
+    text-decoration: none;
+    color: black;
+}

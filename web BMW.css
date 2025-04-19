@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  border-bottom: 1px solid white;
+  top: 0;
+}
+.leftnav {
+  display: flex;
+  align-items: center;
+  width: 950px;
+  height: 90px;
+}
+.leftnav a {
+  font-family: Arial;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  font-size: 18px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 80px;
+  margin-right: 10px;
+}
+
+.rightnav {
+  display: flex;
+  height: 80px;
+  /* margin: 10px; */
+}
+
+.rightnav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+header div a:hover {
+  border-bottom: 4px solid rgb(40, 99, 236);
+}
+.vedio {
+  width: 100%;
+  cursor: pointer;
+}
+.rio {
+  position: absolute;
+  color: white;
+  top: 280px;
+  padding-left: 100px;
+  cursor: pointer;
+}
+.rio2 {
+  font-size: 150px;
+  font-family: "Lucida Sans";
+}
+.rio3 {
+  font-size: 23px;
+  line-height: 25px;
+}
+.rio4 {
+  font-size: 20px;
+  line-height: 65px;
+}
+.rio5 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 50px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px 95px;
+}
+.rio5:hover {
+  border: 2px solid white;
+}
+.phone {
+  position: fixed;
+  right: 80px;
+  top: 500px;
+  font-size: 50px;
+  color: #5b5c5a;
+}
+.text-box {
+  background-color: white;
+  height: 360px;
+}
+.text1 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  padding-top: 30px;
+  font-family: Arial;
+  font-weight: 300;
+}
+
+.text2 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+  margin-top: 30px;
+  font-family: Arial;
+  font-weight: 300;
+}
+.cars {
+  display: flex;
+  margin-top: 50px;
+}
+.car1,
+.car2,
+.car3 {
+  width: 33.33%;
+  font-size: 50px;
+}
+.align-cen {
+  display: flex !important;
+  justify-content: center;
+}
+.search {
+  margin-top: 25px !important;
+  display: flex;
+  margin: auto;
+  background: none;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 5px;
+  width: max-content;
+  font-size: 15px;
+  font-weight: 548;
+  letter-spacing: 0.5px;
+  font-family: Arial;
+  border: 1px solid black;
+}
+.search:hover {
+  border: 3px solid black;
+}
+
+.space1 {
+  background-color: black;
+  height: 50px;
+}
+.lio {
+  position: absolute;
+  color: white;
+  top: 1435px;
+  padding-left: 100px;
+}
+.lio1 {
+  font-family: Arial;
+  font-size: 40px;
+}
+.lio2 {
+  font-family: Arial;
+  font-size: 20px;
+  line-height: 60px;
+}
+.lio3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px 95px;
+}
+.lio3:hover {
+  border: 2px solid white;
+}
+.lio3:hover {
+  border: 2px solid white;
+}
+.img1 {
+  background: url("./photos/car1.webp")
+    no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.space2 {
+  background-color: white;
+  height: 50px;
+}
+.img2 {
+  background-image: url("./photos/car2.webp");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ro {
+  position: absolute;
+  color: white;
+  top: 2320px;
+  padding-left: 100px;
+}
+.ro1 {
+  font-family: Arial;
+  font-size: 35px;
+}
+.ro2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 110px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px 120px;
+}
+.ro2:hover {
+  border: 2px solid white;
+}
+.lo {
+  position: absolute;
+  color: white;
+  top: 2680px;
+  padding-left: 100px;
+}
+.img3 {
+  background-image: url("./photos/car3.webp");
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.lo1 {
+  font-family: Arial;
+  font-size: 35px;
+}
+.lo2 {
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 60px;
+}
+.lo3 {
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 3px;
+}
+.lo4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 130px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 15px 120px;
+}
+.lo4:hover {
+  border: 2px solid white;
+}
+.img4 {
+  background-image: url("./photos/car4.jpeg");
+  height: 430px;
+  width: 50%;
+  background-size: 100%;
+  margin-left: 100px;
+  background-repeat: no-repeat;
+}
+.jio {
+  font-family: Arial;
+  position: absolute;
+  color: black;
+  top: 3100px;
+  padding-left: 930px;
+  margin-right: 50px;
+  font-weight: 100 !important; 
+}
+.jio1 {
+  font-size: 35px;
+  line-height: 80px;
+}
+.jio2,
+.jio3 {
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 100px;
+}
+.jio4 {
+  text-decoration: none;
+  line-height: 60px;
+  color: black;
+  font-size: 17px;
+}
+.jio4:hover {
+  color: rgb(18, 67, 183);
+}
+.space3 {
+  background-color: white;
+  height: 100px;
+}
+hr {
+  color: #5b5c5a;
+}
+.box {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  font-family: Arial;
+  font-size: 1rem;
+}
+.box-p {
+  margin-left: 30px;
+  font-weight: 550;
+}
+.box-p:hover {
+  color: rgb(18, 67, 183);
+  cursor: pointer;
+}
+.last-box {
+  height: 400px;
+  background-color: rgb(243, 240, 240);
+}
+.geo {
+  display: flex;
+  font-family: Arial;
+}
+.geo1,
+.geo2,
+.geo3,
+.geo4 {
+  width: 25%;
+  height: 330px;
+}
+.t1 {
+  margin-top: 80px;
+  line-height: 35px;
+  color: rgb(60, 59, 59);
+  font-size: 13px;
+}
+.t2 {
+  text-decoration: none;
+  color: #4d4d4d;
+  line-height: 35px;
+  font-size: 15px;
+  font-weight: 550;
+}
+.align-cen2 {
+  display: flex;
+  margin-left: 50px;
+}
+.app {
+  display: flex;
+  margin-left: 90px;
+}
+.app i {
+  margin: 0px 12px;
+  font-size: 20px;
+  color: rgb(44, 44, 44);
+}
+
+.conc {
+  display: flex;
+  align-items: center;
+  margin-left: 90px;
+  font-family: Arial;
+  background-color: white;
+  height: 100px;
+}
+.text4 {
+  margin: 0px 10px;
+}
+.text3,
+.text4 {
+  font-size: 20px;
+  color: rgb(44, 44, 44);
+}
+.align-cen3 {
+  text-decoration: none;
+  color: black;
+  font-family: Arial;
+  font-size: 0.85rem;
+  font-weight: 550;
+  margin: 0 20px;
+}
+.footer_leftAlign {
+  display: flex;
+  margin-left: auto;
+  margin-right: 90px;
+}
+.align-cen3:hover {
+  color: rgb(18, 67, 183);
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+  display: block;
+}
+
+.back-to-top:hover {
+  color: rgb(18, 67, 183);
+  transform: scale(1.1);
+}
